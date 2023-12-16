@@ -1,0 +1,92 @@
+header{
+	background-color: yellow;
+	height: 100px;
+	padding: 10px;
+}
+aside{
+	background-color: rgba(176, 224, 255, .6);
+}
+body{
+	font-family: Aller, Arial, sans-serif;
+}
+header h1{
+	font-family: Optima, Verdana, sans-serif;
+	padding-left: 5px;
+	padding-top: 0px;
+}
+
+.Comment{
+	font-family: Calibri, Arial, sans-serif;
+	font-style: italic;
+}
+.Comment a{
+	color: black;
+}
+.Comment a:hover{
+	color:blue;
+}
+	
+@font-face {
+	font-family: "Aller";
+	src: url(Fonts/Aller/Aller_rg.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+#view{
+	color: gray;
+}
+nav{
+	background-color: yellow;
+	position: relative;
+	left: 450px;
+	bottom: 58px;
+	height: 20px;
+}
+nav ul li{
+	list-style: none;
+	font-size: 25px;
+	font-family: Optima, Verdana, sans-serif;
+	background-color: yellow;
+	float: left;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	margin: 20px;
+	padding: 0px;
+}
+nav ul li a:hover{
+	color: gray;
+}
+nav ul li{
+	padding-left: 0;
+}
+.albumcover{
+}
+aside{
+	width: 200px;
+	position: relative;
+	left: 1100px;
+	bottom: 950px;
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+footer{
+	background-color: yellow;
+	position: relative;
+	bottom: 450px;
+}
+#email a:hover{
+	color: gray;
+}
+#email a{
+		text-decoration: none;
+		color: black;
+}
+#view a{
+	color: black;
+}
+#view a:hover{
+	color: blue;
+}
