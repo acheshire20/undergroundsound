@@ -47,14 +47,35 @@ nav ul li a:hover{
 nav ul li{
 	padding-left: 0;
 }
-#form{
-	position: relative;
-	right: 5px;
-	padding-left: 5px;
+header{
+	position:relative;
 }
-#contacts a{
-	color: #5b9bb7;
+#myself{
+	position:relative;
 }
-#contacts a:hover{
-	color: gray;
+#myself{
+	left:1100px;
+	bottom:150px;
+}
+#topster{
+	position:relative;
+}
+#topster{
+	right: 400px;
+	bottom: 150px;
+}
+p{
+	font-size: 20px;
+}
+#topfive{
+	position:relative;
+}
+#topfive{
+	top: 100px;
+}
+article h3{
+	position:relative;
+}
+article h3{
+	top: 100px;
 }
